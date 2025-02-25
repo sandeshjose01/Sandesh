@@ -9,19 +9,21 @@ const projectsPage = () => {
   const Projects = [
     {
       title: "Devzone - A community chat app for devs",
-      description:
-        `DevZone is the ultimate chat platform for developers
+      description: `DevZone is the ultimate chat platform for developers
 to connect, collaborate, and code together. Join the conversation and level up your coding journey.`,
       tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
       link: "https://devzone-ti.vercel.app/",
+      imageLink:
+        "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/473381834_459271083906430_5869194846565264125_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jfxg_UgDzXYQ7kNvgET91Zk&_nc_oc=Adj9mt_Qvi2LC_c2Dk0iMrRtQjjcPaHlyxo1kd-w233ksAM3trlmYMybWUDaqsQV9qRLGEDfvwLdgUXolIHktzT1&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=A11Mb24qGzVmVXyMsAMjR6k&oh=00_AYB0dmieNuPZSnPRojnWlJjfsH7QrBCOoGHiMwUyRCGTOg&oe=67C3C677",
     },
-   
     {
       title: "itZmyLink- One Page many Links",
       description:
         "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "https://github.com/taqui-786/itZmyLink",
+      imageLink:
+        "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/473381834_459271083906430_5869194846565264125_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jfxg_UgDzXYQ7kNvgET91Zk&_nc_oc=Adj9mt_Qvi2LC_c2Dk0iMrRtQjjcPaHlyxo1kd-w233ksAM3trlmYMybWUDaqsQV9qRLGEDfvwLdgUXolIHktzT1&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=A11Mb24qGzVmVXyMsAMjR6k&oh=00_AYB0dmieNuPZSnPRojnWlJjfsH7QrBCOoGHiMwUyRCGTOg&oe=67C3C677",
     },
     {
       title: "GitEstimate- Github estimate worth generator",
@@ -29,63 +31,17 @@ to connect, collaborate, and code together. Join the conversation and level up y
         "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
       link: "https://github.com/taqui-786/GitEstimate",
+      imageLink:
+        "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/473381834_459271083906430_5869194846565264125_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jfxg_UgDzXYQ7kNvgET91Zk&_nc_oc=Adj9mt_Qvi2LC_c2Dk0iMrRtQjjcPaHlyxo1kd-w233ksAM3trlmYMybWUDaqsQV9qRLGEDfvwLdgUXolIHktzT1&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=A11Mb24qGzVmVXyMsAMjR6k&oh=00_AYB0dmieNuPZSnPRojnWlJjfsH7QrBCOoGHiMwUyRCGTOg&oe=67C3C677",
     },
     {
       title: "Mixcn-ui- Reusable components for Nextjs",
       description:
         "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
+      tags: ["Nextjs", "Shadcnui", "Npx", "Library"],
       link: "https://mixcn-ui.vercel.app",
-    },
-    {
-      title: "Rupeespot- All deals Product in one place",
-      description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
-    {
-      title: "Formcraft- Build Type-Safe Forms with Zero Effort",
-      description:
-        "Create production-ready forms with Zod validation, React Hook Form, and TypeScript. Design, customize, and deploy in minutes.",
-      tags: ["Nextjs", "Shadcnui", "Zod", "React Hook Form "],
-      link: "https://formcraft-ti.vercel.app/",
-    },
-    
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+      imageLink:
+        "https://scontent.fktm21-2.fna.fbcdn.net/v/t39.30808-6/473381834_459271083906430_5869194846565264125_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jfxg_UgDzXYQ7kNvgET91Zk&_nc_oc=Adj9mt_Qvi2LC_c2Dk0iMrRtQjjcPaHlyxo1kd-w233ksAM3trlmYMybWUDaqsQV9qRLGEDfvwLdgUXolIHktzT1&_nc_zt=23&_nc_ht=scontent.fktm21-2.fna&_nc_gid=A11Mb24qGzVmVXyMsAMjR6k&oh=00_AYB0dmieNuPZSnPRojnWlJjfsH7QrBCOoGHiMwUyRCGTOg&oe=67C3C677",
     },
   ];
 
