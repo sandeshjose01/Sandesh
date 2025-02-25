@@ -16,10 +16,10 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mdTaquiImam.vercel.app"),
+  metadataBase: new URL("https://www.sandeshjoshi.info.np/"),
   title: {
     default: siteConfig.name,
-    template: `%s - Software Engineer`,
+    template: `%s - Graphic Designer`,
   },
   description: siteConfig.description,
 
@@ -56,11 +56,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Sandesh Jose",
+      url: "https://github.com/sandeshjose01/",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Sandesh Joshi",
 
   openGraph: {
     type: "website",

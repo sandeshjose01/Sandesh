@@ -61,7 +61,7 @@ const Navbar = () => {
     },
    
     {
-      title: 'Contact us',
+      title: 'Contact me',
       icon: (
         <Mail className='h-full w-full ' />
       ),
@@ -97,7 +97,7 @@ const Navbar = () => {
 
   return (
 
-    <div className={`fixed top-5 right-0 left-0 px-0 sm:px-5 m-auto w-full sm:w-fit bg-transparent z-[+9999999] ${scrolling ? "hidden":"block"}`}>
+    <div className={`fixed bottom-5 right-0 left-0 px-0 sm:px-5 m-auto w-full sm:w-fit bg-transparent z-[+9999999] ${scrolling ? "hidden":"block"}`}>
     <Dock className='items-end pb-3 rounded-full'>
       {data.map((item, idx) => (
         <Link href={item.href} key={idx}>

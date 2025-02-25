@@ -8,10 +8,10 @@ import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export const siteConfig = {
-  name: "Md Taqui Imam",
-  description: "I am a Passionate Software Developer",
+  name: "Sandesh joshi",
+  description: "I am a Passionate Graphic Designer",
   ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  url: "https://www.sandeshjoshi.info.np/",
 }
 export default function Home() {
   return (
@@ -25,7 +25,7 @@ export default function Home() {
        <DownLoadResumeBtn/>
       </FramerWrapper>
       {/* RIGHT SIDE image  */}
-      <FramerWrapper className="h-full w-[47%] relative block   max-lg:hidden" y={0} x={100}>
+      <FramerWrapper className="h-full w-[47%] relative block   max-lg:hidden" y={-50} x={100}>
        
       {/* IMAGE  */}
         <HeroImage />

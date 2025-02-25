@@ -12,8 +12,8 @@ const HeroImage = ()  => {
           alt="logo"
           loading="eager"
           priority
-          height={1000}
-          width={1000}
+          height={1500}
+          width={1500}
         />
         </>
     )
